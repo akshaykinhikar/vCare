@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#bebebe"
+    android:orientation="vertical"
+    tools:context="com.example.akshay.mudra.LoginActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_username"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:hint="Username"
+        android:padding="10dp"
+        android:background="#50FFFFFF" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_password"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:background="#50FFFFFF"
+        android:layout_below="@+id/et_username"
+        android:layout_marginTop="10dp"
+        android:hint="Password" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btn_login"
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:textColor="#bebebe"
+        android:layout_below="@+id/et_password"
+        android:layout_alignRight="@+id/et_password"
+        android:layout_alignEnd="@+id/et_password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/btn_register"
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:textColor="#bebebe"
+        android:layout_below="@+id/et_password"
+        android:layout_alignRight="@+id/et_password"
+        android:layout_alignEnd="@+id/et_password"/>
+</LinearLayout>
